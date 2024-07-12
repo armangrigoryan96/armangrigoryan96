@@ -31,7 +31,8 @@ In this approach, we created a list of celebrity names and scanned Reddit posts 
 
 - **Advantages**: Simplicity and speed.
 - **Disadvantages**: High potential for ambiguity and misidentification. For example, the name "Drake" can refer to the rapper or a dragon, leading to incorrect associations.
-![enter image description here](https://github.com/armangrigoryan96/armangrigoryan96.github.io/blob/main/drake.png)
+![enter image description here](https://raw.githubusercontent.com/armangrigoryan96/armangrigoryan96.github.io/main/drake.png)
+
 
 ### Named Entity Recognition (NER)
 
