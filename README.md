@@ -1,4 +1,5 @@
 
+![enter image description here](https://www.pinkvilla.com/images/2023-10/1071466743_orange-yellow-minimalist-aesthetic-a-day-in-my-life-travel-vlog-youtube-thumbnail-5.jpg)
 
 # Celebrity Recognition from Reddit Posts
 
