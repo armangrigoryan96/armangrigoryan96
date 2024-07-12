@@ -1,4 +1,5 @@
 
+
 # Celebrity Recognition from Reddit Posts
 
 ### Blog by: Arman Grigoryan
@@ -40,7 +41,7 @@ Using the spaCy library, we implemented a Named Entity Recognition model to iden
 
 - **Advantages**: Higher accuracy and context-awareness. NER can distinguish between entities based on their usage in sentences.
 - **Disadvantages**: More computationally intensive and requires a well-trained model for a specific dataset. There are sometimes errors therefore.
-![enter image description here](https://github.com/armangrigoryan96/armangrigoryan96.github.io/blob/main/hillary.png)
+![enter image description here](https://raw.githubusercontent.com/armangrigoryan96/armangrigoryan96.github.io/main/hillary.png)
 ## Results and Evaluation
 
 ### Keyword-based Matching
@@ -54,7 +55,7 @@ Using the spaCy library, we implemented a Named Entity Recognition model to iden
 - **Advantages**: NER effectively reduced ambiguity and provided more reliable results by considering the context in which names appeared.
 
 
-![enter image description here](https://github.com/armangrigoryan96/armangrigoryan96.github.io/blob/main/NER.png)
+![enter image description here](https://raw.githubusercontent.com/armangrigoryan96/armangrigoryan96.github.io/main/NER.png)
 
 ### Comparative Analysis
 
@@ -99,7 +100,7 @@ Implementing and refining the searching techniques, especially NER, required sig
 
 This project underscores the importance of choosing the right method for celebrity recognition in text data. While keyword-based matching offers a simple solution, Named Entity Recognition provides a more accurate and context-aware approach. By analyzing Reddit posts, we gained valuable insights into public interests and popular culture, demonstrating the effectiveness of NER in natural language processing tasks.
 
-Thank you for exploring this project on celebrity recognition! For more details and to access the code, visit my [GitHub repository](https://github.com/yourusername/celebrity-recognition).
+Thank you for exploring this project on celebrity recognition! For more details and to access the code, visit my [GitHub repository](https://github.com/armangrigoryan96).
 
 
 ## Future Directions
