@@ -78,7 +78,7 @@ Data preprocessing was crucial to handle the inconsistent formats and noisy data
 The project involved implementing and testing different searching techniques:
 
 - **Keyword-based Matching**: A straightforward implementation involving text searching and matching against a predefined list.
-- **NER Implementation**: Using the spaCy library, we trained and fine-tuned an NER model. This involved significant Python coding and experimentation to achieve optimal performance.
+- **NER Implementation**: Using the spaCy library for NER model. This involved  Python coding and experimentation to achieve optimal performa
 
 ## Challenges Overcome
 
