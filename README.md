@@ -1,6 +1,9 @@
 
 # Celebrity Recognition from Reddit Posts
 
+### Blog by: Arman Grigoryan
+University Konstanz, 2024,  July. Document Analysis.
+
 ## Introduction
 
 ### Project Name
@@ -8,8 +11,10 @@
 Celebrity Recognition from Reddit Posts
 
 ### Why the Problem is Important
+Have you ever wondered which celebrities capture the attention of the Redditverse? This project delves into the fascinating world of celebrity recognition using Reddit posts from 2006 to 2016. We explore two search methods: keyword-based matching and Named Entity Recognition (NER). Brace yourself for some surprising results, as we uncover the hidden narratives within Reddit's discussions.
 
 In the age of digital media, celebrities hold significant influence over public opinion and culture. Social media platforms like Reddit are hubs of public discourse, where discussions about celebrities can offer valuable insights into societal trends and interests. Recognizing celebrities in these posts can help track the evolution of popular culture, gauge public sentiment, and even inform marketing strategies. This project aims to identify and compare the effectiveness of different methods for recognizing celebrities from Reddit posts, leveraging data from 2006 to 2016.
+
 
 ### Project Description
 
@@ -19,7 +24,7 @@ This project explores two distinct methods for identifying celebrities in Reddit
 2. **Named Entity Recognition (NER)**: This more advanced technique uses machine learning models to recognize and classify named entities (such as people, organizations, and locations) within the text. NER is designed to understand context, providing more precise and accurate results.
 
 ## Methodology
-
+The internet has become a breeding ground for celebrity culture, and Reddit, a massive online community, serves as a prime example. From hilarious memes to heated debates, Reddit posts offer a unique window into public interest and popular culture trends. This project embarks on a quest to identify the most frequently mentioned celebrities on Reddit, employing two distinct search methods.
 ### Keyword-based Matching
 
 In this approach, we created a list of celebrity names and scanned Reddit posts to find matches. This method relies heavily on the accuracy and completeness of the predefined list. 
@@ -33,8 +38,8 @@ In this approach, we created a list of celebrity names and scanned Reddit posts 
 Using the spaCy library, we implemented a Named Entity Recognition model to identify and classify entities within the text. NER models are trained on large datasets to recognize various entities based on context.
 
 - **Advantages**: Higher accuracy and context-awareness. NER can distinguish between entities based on their usage in sentences.
-- **Disadvantages**: More computationally intensive and requires a well-trained model.
-
+- **Disadvantages**: More computationally intensive and requires a well-trained model for a specific dataset. There are sometimes errors therefore.
+![enter image description here](https://github.com/armangrigoryan96/armangrigoryan96.github.io/blob/main/hillary.png)
 ## Results and Evaluation
 
 ### Keyword-based Matching
@@ -46,6 +51,9 @@ Using the spaCy library, we implemented a Named Entity Recognition model to iden
 
 - **Outcome**: The NER method successfully identified "Hilary Clinton" as a prominent celebrity. This result was more accurate and contextually relevant compared to the keyword-based approach.
 - **Advantages**: NER effectively reduced ambiguity and provided more reliable results by considering the context in which names appeared.
+
+
+![enter image description here](https://github.com/armangrigoryan96/armangrigoryan96.github.io/blob/main/NER.png)
 
 ### Comparative Analysis
 
@@ -61,9 +69,9 @@ The project began with an extensive exploration of Reddit data from 2006 to 2016
 
 Data preprocessing was crucial to handle the inconsistent formats and noisy data typical of social media posts. Steps included:
 
-- Removing irrelevant content (e.g., advertisements, spam).
+
 - Standardizing text formats.
-- Using NER for initial data cleaning to identify and correct inconsistencies.
+- Using NER for initial data cleaning to identify and correct inconsistencies and leave people on the board.
 
 ### Development and Testing
 
@@ -91,6 +99,13 @@ Implementing and refining the searching techniques, especially NER, required sig
 This project underscores the importance of choosing the right method for celebrity recognition in text data. While keyword-based matching offers a simple solution, Named Entity Recognition provides a more accurate and context-aware approach. By analyzing Reddit posts, we gained valuable insights into public interests and popular culture, demonstrating the effectiveness of NER in natural language processing tasks.
 
 Thank you for exploring this project on celebrity recognition! For more details and to access the code, visit my [GitHub repository](https://github.com/yourusername/celebrity-recognition).
+
+
+## Future Directions
+
+While this project demonstrated the efficacy of Named Entity Recognition for celebrity recognition, it's worth noting that using Large Language Models (LLMs) like GPT-4 could further enhance accuracy and context understanding. However, implementing LLMs can be costly in terms of computational resources and time, which is a consideration for future work.
+
+
 
 ## Acknowledgments
 
